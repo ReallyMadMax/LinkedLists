@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment_3_skeleton.csproj|c:\\users\\abdel\\onedrive - southern alberta institute of technology\\sait\\courses\\cprg2011_a\u0026b\\assignments_and_project\\assignements\\assignment_3\\assignment_3_skeleton\\assignment_3_skeleton\\linkedlistadt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment_3_skeleton.csproj|solutionrelative:linkedlistadt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment_3_skeleton.csproj|c:\\users\\abdel\\onedrive - southern alberta institute of technology\\sait\\courses\\cprg2011_a\u0026b\\assignments_and_project\\assignements\\assignment_3\\assignment_3_skeleton\\assignment_3_skeleton\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment_3_skeleton.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment_3_skeleton.csproj|c:\\users\\abdel\\onedrive - southern alberta institute of technology\\sait\\courses\\cprg2011_a\u0026b\\assignments_and_project\\assignements\\assignment_3\\assignment_3_skeleton\\assignment_3_skeleton\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment_3_skeleton.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment_3_skeleton.csproj|c:\\users\\abdel\\onedrive - southern alberta institute of technology\\sait\\courses\\cprg2011_a\u0026b\\assignments_and_project\\assignements\\assignment_3\\assignment_3_skeleton\\assignment_3_skeleton\\serializationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment_3_skeleton.csproj|solutionrelative:serializationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedListADT.cs",
+              "DocumentMoniker": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\LinkedListADT.cs",
+              "RelativeDocumentMoniker": "LinkedListADT.cs",
+              "ToolTip": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\LinkedListADT.cs",
+              "RelativeToolTip": "LinkedListADT.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T16:25:07.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SerializationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\SerializationHelper.cs",
+              "RelativeDocumentMoniker": "SerializationHelper.cs",
+              "ToolTip": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\SerializationHelper.cs",
+              "RelativeToolTip": "SerializationHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T16:24:30.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T16:24:24.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\abdel\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\Courses\\CPRG2011_A\u0026B\\Assignments_and_Project\\Assignements\\Assignment_3\\Assignment_3_skeleton\\Assignment_3_skeleton\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T16:23:42.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

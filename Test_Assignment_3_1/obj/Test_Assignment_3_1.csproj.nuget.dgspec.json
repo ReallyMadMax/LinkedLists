@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/max/Desktop/C#/Assignment_3_skeleton/Test_Assignment_3_1/Test_Assignment_3_1.csproj": {}
+  },
+  "projects": {
+    "/Users/max/Desktop/C#/Assignment_3_skeleton/Assignment_3_skeleton/Assignment_3_skeleton.csproj": {
+      "restore": {
+        "projectUniqueName": "/Users/max/Desktop/C#/Assignment_3_skeleton/Assignment_3_skeleton/Assignment_3_skeleton.csproj",
+        "projectName": "Assignment_3_skeleton",
+        "projectPath": "/Users/max/Desktop/C#/Assignment_3_skeleton/Assignment_3_skeleton/Assignment_3_skeleton.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "/Users/max/Desktop/C#/Assignment_3_skeleton/Test_Assignment_3_1/Test_Assignment_3_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/max/Desktop/C#/Assignment_3_skeleton/Test_Assignment_3_1/Test_Assignment_3_1.csproj",
+        "projectName": "Test_Assignment_3_1",
+        "projectPath": "/Users/max/Desktop/C#/Assignment_3_skeleton/Test_Assignment_3_1/Test_Assignment_3_1.csproj",
+        "packagesPath": "/Users/max/.nuget/packages/",
+        "outputPath": "/Users/max/Desktop/C#/Assignment_3_skeleton/Test_Assignment_3_1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/max/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/max/Desktop/C#/Assignment_3_skeleton/Assignment_3_skeleton/Assignment_3_skeleton.csproj": {
+                "projectPath": "/Users/max/Desktop/C#/Assignment_3_skeleton/Assignment_3_skeleton/Assignment_3_skeleton.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
