@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +18,44 @@ namespace Assignment_3_skeleton
         {
             head = null;
             listSize = 0;
+        }
+
+        //Return the boolean if the list is empty or not
+        public bool IsEmpty()
+        {
+            if (head == null)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
+        }
+
+        public void Clear()
+        {
+            head = null;
+            listSize = 0;
+        }
+
+        //adds node to the end of the list
+        public void Append(Object data)
+        {
+            Node newNode = new Node(data);
+            listSize++;
+            if (head == null)
+            {
+                head = newNode;
+            }
+            else
+            {
+                Node current = head;
+                while (current.Next != null)
+                {
+                    current = current.Next;
+                }
+                current.Next = newNode;
+            }
         }
 
         // Return the size of the SLL
@@ -78,6 +116,31 @@ namespace Assignment_3_skeleton
             }
 
             return currentNode.Data;
+        }
+
+        public Object[] List2Array()
+        {
+            int size = 0;
+            Node current = head;
+            // Count the elements
+            while (current != null)
+            {
+                size++;
+                current = current.Next;
+            }
+
+            // Allocate array of correct size
+            Object[] array = new Object[size];
+            int index = 0;
+            current = head;
+            // Copy elements
+            while (current != null)
+            {
+                array[index++] = current.Data;
+                current = current.Next;
+            }
+
+            return array;
         }
     }
 }
