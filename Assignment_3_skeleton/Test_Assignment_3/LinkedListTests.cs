@@ -233,5 +233,22 @@ namespace Test_Assignment_3
             string value = (string)this.linkedList.Retrieve(1);
             Assert.Equals("b", value);
         }
+
+        [Test]
+        public void TestArray()
+        {
+            LinkedList users = new LinkedList();
+            users.Append(new User(1, "Joe Blow", "jblow@gmail.com", "password"));
+            users.Append(new User(2, "Joe Schmoe", "joe.schmoe@outlook.com", "abcdef"));
+            users.Append(new User(3, "Colonel Sanders", "chickenlover1890@gmail.com", "kfc5555"));
+        
+            Object[] array = new Object[3];
+            array.Append(new User(1, "Joe Blow", "jblow@gmail.com", "password"));
+            array.Append(new User(2, "Joe Schmoe", "joe.schmoe@outlook.com", "abcdef"));
+            array.Append(new User(3, "Colonel Sanders", "chickenlover1890@gmail.com", "kfc5555"));
+        
+            Assert.AreEqual(users.List2Array(), array);
+        }
+        
     }
 }
