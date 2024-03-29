@@ -1,17 +1,16 @@
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Assignment_3_skeleton
 {
     public class LinkedList : ILinkedListADT
     {
-        // Define refernce/pointer to the first node
         public Node head;
         public int listSize;
-        private Node head;
-        private int size;
 
         // SLL class constructor 
         // Create empty list
@@ -27,7 +26,8 @@ namespace Assignment_3_skeleton
             if (head == null)
             {
                 return true;
-            } else
+            }
+            else
             {
                 return false;
             }
@@ -58,6 +58,70 @@ namespace Assignment_3_skeleton
                 current.Next = newNode;
             }
         }
+        //adds node to the beginning of the list
+        public void Prepend(object data) 
+        {
+            Node newNode = new Node(data);
+            newNode.Next = head;
+            head = newNode;
+            listSize++;
+        }
+        //inserts node in to chosen index
+        public void Insert(Object data, int index)
+        {
+            if (index < 0 || index >= listSize)
+            {
+                throw new IndexOutOfRangeException();
+            }
+            Node newNode = new Node(data);
+           Node currentNode = head;
+            int listCount = 0;
+            if (index == 0)
+            {
+                newNode.Next = head;
+                head = newNode;
+                listSize++;
+                return;
+            }
+            while (listCount < index)
+            {
+                if(currentNode == null)
+                {
+                    throw new IndexOutOfRangeException();
+                }
+                currentNode= currentNode.Next;
+                listCount++;
+            }
+
+            newNode.Next = currentNode;
+        }
+        // replaces node at index
+        public void Replace(Object data, int index)
+        {
+            if (index < 0 || index >= listSize)
+            {
+                throw new IndexOutOfRangeException();
+            }
+            int listCount = 0;
+            Node newNode = new Node(data);
+           Node currentNode = head.Next;
+            Node previousNode = head;
+            while (currentNode != null)
+            {
+                if(index == listCount) 
+                { 
+                    break; 
+                }
+                previousNode = currentNode;
+                currentNode= currentNode.Next;
+                
+                listCount++;
+            }
+            newNode.Next = currentNode.Next;
+            previousNode.Next = currentNode;
+            currentNode.Next = null;
+        }
+
 
         // Return the size of the SLL
         public int Size()
@@ -119,29 +183,6 @@ namespace Assignment_3_skeleton
             return currentNode.Data;
         }
 
-        public Object[] List2Array()
-        {
-            int size = 0;
-            Node current = head;
-            // Count the elements
-            while (current != null)
-            {
-                size++;
-                current = current.Next;
-            }
-
-            // Allocate array of correct size
-            Object[] array = new Object[size];
-            int index = 0;
-            current = head;
-            // Copy elements
-            while (current != null)
-            {
-                array[index++] = current.Data;
-                current = current.Next;
-            }
-
-            return array;
         public int IndexOf(object data)
         {
             Node current = head;
@@ -164,3 +205,7 @@ namespace Assignment_3_skeleton
         }
     }
 }
+        
+        
+   
+
