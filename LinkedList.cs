@@ -137,27 +137,71 @@ namespace Assignment_3_skeleton
         // index => the index opf the node to be removed
         public void Delete(int index)
         {
-            
+            if (index < 0 || index >= listSize)
+            {
+                throw new IndexOutOfRangeException("Index is out of bounds.");
+            }
+
+            if (index == 0)
+            {
+                listSize--;
+                RemoveFirst();
+                return;
+            }
+
+            Node currentNode = head;
+            Node previousNode = null;
+            int currentIndex = 0;
+
+            while (currentIndex < index)
+            {
+                previousNode = currentNode;
+                currentNode = currentNode.Next;
+                currentIndex++;
+            }
+
+            previousNode.Next = currentNode.Next;
+            listSize--;
         }
 
         public Object Retrieve(int index)
         {
-            return null;
+            if (index < 0 || index >= listSize)
+            {
+                throw new IndexOutOfRangeException("Index is out of bounds.");
+            }
+
+            Node currentNode = head;
+            int currentIndex = 0;
+
+            while (currentIndex < index)
+            {
+                currentNode = currentNode.Next;
+                currentIndex++;
+            }
+
+            return currentNode.Data;
         }
 
-        public Object[] List2Array()
+        public int IndexOf(object data)
         {
-            return null;
-        }
-
-        public int IndexOf(Object data)
-        {
+            Node current = head;
+            int index = 0;
+            while (current != null)
+            {
+                if (current.Data.Equals(data))
+                {
+                    return index;
+                }
+                current = current.Next;
+                index++;
+            }
             return -1;
         }
 
-        public bool Contains(Object data) 
+        public bool Contains(object data)
         {
-            return false;
+            return IndexOf(data) != -1;
         }
     }
 }
