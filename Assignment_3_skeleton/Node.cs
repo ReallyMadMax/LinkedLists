@@ -16,11 +16,7 @@ namespace Assignment_3_skeleton
         public Node Next { get; set; }
 
         // Node class constructor
-    public class Node
-    {
-        
-        public object Data { get; set; }
-        public Node Next { get; set; }
+   
 
         public Node(object data)
         {

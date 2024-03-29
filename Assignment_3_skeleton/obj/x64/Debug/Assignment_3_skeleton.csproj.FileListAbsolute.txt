@@ -1,0 +1,7 @@
+C:\Users\goget\Downloads\LinkedLists-main\LinkedLists-main\Assignment_3_skeleton\bin\x64\Debug\Assignment_3_skeleton.exe.config
+C:\Users\goget\Downloads\LinkedLists-main\LinkedLists-main\Assignment_3_skeleton\bin\x64\Debug\Assignment_3_skeleton.exe
+C:\Users\goget\Downloads\LinkedLists-main\LinkedLists-main\Assignment_3_skeleton\bin\x64\Debug\Assignment_3_skeleton.pdb
+C:\Users\goget\Downloads\LinkedLists-main\LinkedLists-main\Assignment_3_skeleton\obj\x64\Debug\Assignment_3_skeleton.csproj.AssemblyReference.cache
+C:\Users\goget\Downloads\LinkedLists-main\LinkedLists-main\Assignment_3_skeleton\obj\x64\Debug\Assignment_3_skeleton.csproj.CoreCompileInputs.cache
+C:\Users\goget\Downloads\LinkedLists-main\LinkedLists-main\Assignment_3_skeleton\obj\x64\Debug\Assignment_3_skeleton.exe
+C:\Users\goget\Downloads\LinkedLists-main\LinkedLists-main\Assignment_3_skeleton\obj\x64\Debug\Assignment_3_skeleton.pdb
